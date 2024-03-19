@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		#div1 {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+
+		#div2 {
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}
+
+	</style>
+</head>
+<body>
+
+<div id="div1"></div>
+
+<br>
+
+<div id="div2"></div>
+
+
+<script>
+	let red = document.getElementById("div1");
+	let blue = document.getElementById("div2");
+
+	function up()
+	{
+		div2.style.backgroundColor = "yellow";
+	}
+
+	function down()
+	{
+		div1.style.backgroundColor = "yellow";
+	}
+
+	function off()
+	{
+		div1.style.backgroundColor = "red";
+		div2.style.backgroundColor = "blue";
+	}
+
+	div1.addEventListener('mouseover',up);
+	div2.addEventListener('mouseover',down);
+	div1.addEventListener('mouseout', off);
+	div2.addEventListener('mouseout',off);
+
+</script>
+
+</body>
+</html>
