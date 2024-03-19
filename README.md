@@ -17,7 +17,7 @@ This repository serves as a collection of IWP labs completed as part of my cours
 The repository is organized into folders, each representing a specific lab assignment. Within each folder, you will find:
 
 - **Lab Description:** A README or documentation file explaining the purpose and requirements of the lab.
-- **Source Code:** Java source code files implementing the lab exercises.
+- **Source Code:** source code files implementing the lab exercises.
 
 ## Usage
 
