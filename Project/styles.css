@@ -1,0 +1,241 @@
+/* Home */
+body {
+    background-image: url('background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the last value (0.2) to control the level of transparency */
+    z-index: -1;
+}
+
+/* Navigation Menu */
+.topbar-menu {
+    background-color: transparent;
+    text-align: center;
+}
+
+.topbar-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.topbar-menu li {
+    display: inline;
+    margin-right: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.topbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.topbar-menu a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.topbar-menu a:hover {
+    color: #ccc;
+}
+
+.topbar-menu a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Featured Games */
+.featured-games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px; /* Adjust the gap between grid items */
+}
+
+.featured-game {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-game:hover {
+    transform: scale(1.1);
+}
+
+.featured-game img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.featured-game h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+p {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+a.contact-link {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.rainbow-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding: 20px 40px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #8b00ff);
+    background-size: 600%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.rainbow-button:hover {
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0); /* Adjust the alpha value to control the transparency */
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+.request-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.request-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.request-form input,
+.request-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+}
+
+.request-form button {
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #8b00ff);
+    background-size: 600%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.request-form button:hover {
+    background-position: center;
+}
+
+
+
+
+
