@@ -1,0 +1,119 @@
+.content{
+	margin: auto;
+	width: 45%;
+	border: 2px solid #001a1a;
+	background-color: #004d4d;
+	border-radius: 20px;
+	padding: 20px 40px;
+	font: 'Titillium Web', sans-serif;
+	
+}
+
+body{
+	background-color: #FFFFFF;
+}
+
+.title{
+	background-color: #006666;
+	width: 95%;
+	padding: 1px;
+	padding-left: 50px;
+	border-radius: 10px;	
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #ffffff;	
+}
+
+
+.form{
+	padding-left: 10%;
+}
+
+.submit{
+	padding: 5px;
+	padding-left: 30%;
+}
+
+.box {
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+	background-color:#e6fff2;
+	border: 1px solid #8c8c8c;
+	color: black;
+}
+
+p {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+input[type="submit"] {
+	width: 150px;
+	border-radius: 5px;
+	background-color:#00b3b3;
+	border: 1px solid #006666;
+	color: white;
+	padding: 12px 0;
+	font-weight: bold;
+}
+
+
+label{
+	padding-right: 5px;
+}
+
+input[type="submit"]:hover{
+	background-color: #009999;
+	border: #001a0d;
+	box-shadow: 2px 2px 2px 2px #003333;
+	padding: 13px 0;
+}
+
+	
+.content p label{
+		width: 100px;
+		font-weight: bold;
+		float: left; 
+		padding-right: 20px;
+}
+	
+.p1{
+	color: #d9d9d9;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.p2{
+	display: inline-block;
+}
+
+a{
+	color: #00e6e6;
+}
+
+
+img{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: right;
+	display: inline-block;
+	right: 30px;
+	top: 20px;
+}
+
+h1{
+	display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+	width: 230px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #d6fff2;
+}

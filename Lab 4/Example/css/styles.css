@@ -1,0 +1,72 @@
+/*
+	SHIFT + F5 -> Refresh
+	DELETE CACHE
+*/
+
+/* TEXT STYLE */
+h1 {
+    color: orange;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.text {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: orange;
+    width: 220px;
+    text-align: center;
+}
+
+/* LINK STYLE */
+
+.top .link {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.top .link:hover {
+    color: orange;
+}
+
+/* div style */
+
+.box{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 0 auto;
+}
+
+/* IMAGE STYLE */
+
+.picture{
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lavender;
+    margin: 0 auto;
+    display: block;
+}
+
+/* LIST STYLE */
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+
+.list li{
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+}
